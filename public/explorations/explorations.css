@@ -1,0 +1,162 @@
+/* Explorations are isolated from the storefront and from each other. */
+.study-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 2rem;
+  font-size: 0.75rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.study-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 3rem;
+  padding-block: 3rem;
+  min-height: 670px;
+}
+
+.study-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.study h1 {
+  font-size: clamp(3rem, 5.5vw, 5.5rem);
+  max-width: 10ch;
+  margin-block: 1.5rem;
+}
+
+.study-support {
+  font-size: 1.15rem;
+  max-width: 32ch;
+}
+
+.study-facts {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-block: 1.4rem;
+}
+
+.study-image {
+  position: relative;
+  background: var(--color-soft);
+  border: 1px solid var(--color-line);
+}
+
+.study-image img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+}
+
+.study-mark {
+  display: none;
+}
+
+.study-notes {
+  padding-block: 3rem;
+  border-top: 1px solid var(--color-line);
+  max-width: 900px;
+}
+
+.study-notes h2 {
+  margin-bottom: 1.5rem;
+}
+
+.study-notes h3 {
+  margin-block: 1.5rem 0.5rem;
+}
+
+.modernist .study-copy {
+  border-left: 5px solid var(--color-ink);
+  padding-left: 2rem;
+}
+
+.postmodernist {
+  background: #eee7db;
+}
+
+.postmodernist .study-copy {
+  padding: 2rem;
+  background: var(--color-paper);
+  box-shadow: 10px 10px 0 #c5cfb4;
+}
+
+.postmodernist h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  letter-spacing: -0.045em;
+}
+
+.postmodernist .study-image {
+  border-radius: 48% 48% 0 0;
+  border: 2px dashed var(--color-ink);
+}
+
+.postmodernist .study-mark {
+  display: block;
+  position: absolute;
+  top: -3rem;
+  right: 1rem;
+  font:
+    10rem Georgia,
+    serif;
+  line-height: 1;
+}
+
+.study-index {
+  padding-block: 3rem;
+}
+
+.study-index h1 {
+  max-width: 14ch;
+}
+
+.study-index p {
+  max-width: 700px;
+  margin-block: 1.5rem;
+}
+
+.study-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (width <= 760px) {
+  .study-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    gap: 2rem;
+    padding-block: 2rem;
+  }
+
+  .study h1 {
+    font-size: clamp(2.6rem, 11vw, 4rem);
+  }
+
+  .study-header {
+    flex-wrap: wrap;
+  }
+
+  .study-image img {
+    max-height: 400px;
+  }
+
+  .postmodernist .study-copy {
+    padding: 1.3rem;
+    box-shadow: 5px 5px 0 #c5cfb4;
+  }
+
+  .postmodernist .study-mark {
+    top: 0;
+    font-size: 6rem;
+  }
+
+  .modernist .study-copy {
+    padding-left: 1.2rem;
+  }
+}
