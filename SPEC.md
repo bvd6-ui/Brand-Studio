@@ -1,91 +1,75 @@
 # Brand Studio decisions
 
-This is the durable agreement between the learner and agent. Keep it concise and update it only with agreed choices or actual evidence. `Not chosen yet` is a valid status. Persona cards are hypotheses unless supported by real research.
-
-[LEARNING.md](LEARNING.md) holds the short, reviewable record of learner explanations and help received. Keep the brand decisions and implementation evidence here; link rather than duplicate them.
-
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
-- Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Feature: **BRAND-001 — Unwritten storefront and live style guide**.
+- Stage: Implementation checked and ready for learner review on `codex/brand-001-unwritten`; not kept or merged.
+- Scope: two audience hypotheses, brief, two researched hero studies, original one-color SVG wordmark, coherent storefront/style guide, two ethical persuasion applications, existing size/demo-bag behavior.
+- Learner authorized remaining design decisions to be made by AI. Those decisions below are recommendations implemented under that delegation, not learner explanations or completed human reviews.
+- Workflow exception: GitHub issue creation was attempted before saving work, but the available browser is signed out. Local implementation continued under the learner’s explicit completion request. Sign-in is now resolved: [issue #1](https://github.com/bvd6-ui/Brand-Studio/issues/1).
+- Next: learner reviews the short learning record and actual pages, discusses a test, then decides whether to keep/merge.
 
 ## Product boundary
 
-The product is the same white T-shirt throughout the comparison. The baseline offers a size selector and temporary demo bag. No real orders, payment, accounts, or persistence. Keep product facts stable between directions; do not add unsupported claims about materials, manufacturing, sustainability, fit, delivery, scarcity, reviews, or sales.
+Same plain white T-shirt illustration in both studies and storefront. Existing $28 USD is explicitly a fictional demo price. S/M/L/XL are demo sizes. Fit, fabric, manufacturing, shipping and sustainability are unspecified. No orders, payment, accounts, enrollment or persistent bag. No invented social proof or scarcity.
 
 ## Audience hypotheses
 
-The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
+Both are assumptions, not validated research. Primary/secondary audiences were chosen or approved by the learner from AI suggestions; concerns and page needs below are AI elaborations.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card               | Primary                                                   | Secondary                                                       |
+| ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------- |
+| Situation               | Book lovers visiting bookstores or reading clubs          | Everyday shoppers choosing a plain shirt for casual wear        |
+| Goal/meaning            | Thoughtfulness; space for their own ideas                 | Simple styling without needing a literary identity              |
+| Concern (AI assumption) | A brand that dictates their identity or feels pretentious | Unclear product, size controls or misleading purchase claims    |
+| Page should help decide | Whether the open-ended meaning feels like them            | Whether to try a clearly labeled white-shirt demo in their size |
+| Evidence                | Learner choice; audience hypothesis                       | Learner approval; audience hypothesis                           |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
-| Learner's predicted audience effect      | Not chosen yet |
+| Decision                 | Agreement and provenance                                                                                       |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Name                     | **Unwritten** — learner selected from three AI suggestions                                                     |
+| Promise                  | **Space for your own ideas** — learner chose this meaning                                                      |
+| Archetype                | **Sage** — requested by learner; brand character of curiosity and understanding, not a customer classification |
+| Voice                    | **Curious, thoughtful, playful** — learner selected                                                            |
+| Voice example            | “What will you write into today?” — associated AI example                                                      |
+| Headline                 | **Leave room for your next idea.** — learner selected                                                          |
+| Supporting line          | **The shirt is blank. What it means is up to you.** — AI selected under delegation                             |
+| Learner predicted effect | Response retained only in the unreviewed local LEARNING.md; not published before accuracy review.              |
 
 ## Visual decision
 
-Compare two small hero previews before building the whole page. Hold the product, headline, supporting copy, and action identical. Use specific real design references and annotate visual choices, intended effect, and risk.
+[Compare both live studies](public/explorations/index.html). Both use the same headline, supporting sentence, white-shirt asset, fictional price and “Choose your size” action, linking to the working form.
 
-A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
-
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item              | Implementation / provenance                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Modernist         | [Open margins](public/explorations/modernist.html): asymmetric grid, strong sans-serif hierarchy, restricted palette and rule. Reference: [Jan Tschichold, Die Frau ohne Namen, 1927, MoMA](https://www.moma.org/collection/works/5754). Full poster visually inspected in browser. Context: [MoMA, The New Typography](https://www.moma.org/calendar/exhibitions/1013).                            |
+| Postmodernist     | [Notes in the margins](public/explorations/postmodernist.html): literary serif quotation, layered panels, broken outline and oversized quotation mark. Reference: [Wolfgang Weingart, Collage 9, 1975, SFMOMA](https://www.sfmoma.org/artwork/2014.753/). Artwork visually inspected in browser; used as an experimental precedent for layering, not labeled by the museum as this website’s style. |
+| Applied direction | **Open margins**, AI choice under delegation. Clear space supports authorship and legible controls support the secondary audience. Restraint risks feeling impersonal. The alternative’s layering could support interpretation but distract from the product. Learner comparison/reason not yet evidenced.                                                                                          |
+| SVG logo          | [Original path wordmark](public/assets/wordmark.svg): geometric UNWRITTEN lettering and a trailing blank line. One flat ink color, no font dependency, no grayscale simulation. No trademark clearance claimed.                                                                                                                                                                                     |
+| Logo variants     | Same SVG at desktop navigation 175px, narrow navigation 150px, and enlarged/one-color views in [style guide](public/styleguide.html). Learner review pending.                                                                                                                                                                                                                                       |
+| Shared identity   | [styles.css](public/styles.css): paper, ink, muted green, system sans-serif and monospace labels. Guide reads actual CSS color and spacing tokens via [styleguide.js](public/styleguide.js).                                                                                                                                                                                                        |
 
 ## Ethical persuasion
 
-Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
+AI-selected applications under the learner’s delegation; learner explanation of an element’s benefit is not yet evidenced. These are design intentions, not proven conversion effects.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-
-## BRAND-001 — first branded storefront and live style guide
-
-**Scope:** turn the working neutral storefront into the chosen brand's first coherent page. Keep the existing size selector and demo bag usable. Do not add checkout or all future features.
-
-Keep when:
-
-- The learner has chosen the audience hypotheses, brief, visual direction, and logo; the page visibly expresses those choices.
-- Two annotated hero directions compare modernist/postmodernist thinking with the same content and real source links.
-- The selected SVG logo works at small size and in one color; the presentations may share one asset.
-- The storefront and live style guide share CSS variables, typography, components, and assets; they do not drift into separate identities.
-- Two ethical persuasion applications are visible and their claims are supportable.
-- Prepared checks pass, the agent has reviewed the slice and discussed one actual check, and the learner has reported a browser impression plus keyboard/mobile observations.
-- The issue, branch, commit, and PR explain this feature in the learner's repository; agreed decisions and actual evidence are saved here. The learner has approved keeping and merging the change, and the merge into `main` is verified. Publishing is a separate choice.
+| Principle   | Actual interface/copy                                                                                     | Mechanism and visitor benefit                                                                                                                                         |
+| ----------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reciprocity | Free prompt: “What did the last page leave unsaid?” with a suggestion to write a question after a chapter | Offers useful reflection before asking for anything. No signup, purchase, or submitted response; can be used independently of the shirt.                              |
+| Liking      | “Dog-eared pages. Open questions. Your kind of company.” and a welcome to readers at any stage            | Shared interests and a friendly voice can make the brand relatable. Welcomes the visitor without claiming existing members, testimonials, endorsements or popularity. |
 
 ## Evidence
 
-Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
+| Spec ID   | Files                                                                                                                                           | Issue/PR                                                                         | Actual checks and observations                                                                                                                                        |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BRAND-001 | [Storefront](public/index.html), [guide](public/styleguide.html), [studies](public/explorations/index.html), [logo](public/assets/wordmark.svg) | [Issue #1](https://github.com/bvd6-ui/Brand-Studio/issues/1); feature PR pending | See [validation](docs/brand-001-validation.md). Learner’s earlier baseline report is recorded locally; branded-page, keyboard and narrow-screen observations pending. |
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+## Keep requirements still pending
 
-## Later
-
-No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
+- Human review of applied direction/logo and an explanation of one useful page element.
+- Learner interpretation of one actual test and personal branded-page, keyboard and narrow-view observations.
+- Explicit accuracy/removal review of changed LEARNING.md before its excerpts are staged, committed or pushed.
+- Issue and checked feature PR; learner keep/merge decision and verified merge.
+- Publishing is separate, not requested or claimed. No optional next feature selected.
